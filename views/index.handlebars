@@ -1,25 +1,45 @@
 <h1>Nutri-Find</h1>
 
 <div class="main">
- <form class="create-form">
+    <form class="create-form">
         <div class="form-group">
             <label for="ns"></label>
-            <input id="userInput" class= "shadow-inner resize-y border rounded focus:outline-none focus:shadow-outline p-4"type="text" name="item_name" placeholder="Enter a diet or Food">
-    </input>
+            <input id="userInput"
+                class="shadow-inner resize-y border rounded focus:outline-none focus:shadow-outline p-4" type="text"
+                name="item_name" placeholder="Enter a diet or Food">
+            </input>
         </div>
     </form>
-   
-    </div>
-     <button class="add" type="click">SUBMIT</button>
-    <h4 class="findText">Find a recipe</h4>
 
-<div class="list">
-   
-    <ul>
-       <img src="" id="img" width="100" height="100">
-    </ul>
 </div>
-    
-    <ul>
-      
-    </ul>
+<button class="add  cursor-pointer ... shadow-lg p-2 rounded-md bg-red-500 hover:bg-red-700 focus:outline-none"
+    type="click">Find a recipe</button>
+
+<ul class="list flex justify-center flex-wrap animated fadeIn" id="listId">
+
+    <li id="item-1">
+        <h5 class="recipe-display"></h5>
+        <img src="" class="rounded-t-lg shadow-lg" id="recipe-icon" width="350" height="250">
+        <a href="" id="recipeLink">Go to recipe</a>
+    </li>
+    <li id="item-2">
+        <h5 class="recipe-display"></h5>
+        <img src="" id="recipe-icon" class="rounded-t-lg shadow-lg" width="350" height="250">
+        <a href="" id="recipeLink">Go to recipe</a>
+    </li>
+    <li id="item-3">
+        <h5 class="recipe-display"></h5>
+        <img src="" id="recipe-icon" class="rounded-t-lg shadow-lg" width="350" height="250">
+        <a href="" id="recipeLink">Go to recipe</a>
+    </li>
+    <li id="item-4">
+        <h5 class="recipe-display"></h5>
+        <img src="" id="recipe-icon" class="rounded-t-lg shadow-lg" width="350" height="250">
+        <a href="" id="recipeLink">Go to recipe</a>
+    </li>
+    <li id="item-5">
+        <h5 class="recipe-display"></h5>
+        <img src="" id="recipe-icon" class="rounded-t-lg shadow-lg" width="350" height="250">
+        <a href="" id="recipeLink">Go to recipe</a>
+    </li>
+</ul>

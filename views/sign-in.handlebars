@@ -1,38 +1,28 @@
- <h1>Sign In</h1>
-{{!-- {{#content "body"}} --}}
-<p>
-{{!-- {{#each name}} 
-{{this.id}}. {{this.name}} --}}
-<button data-planid="" class="submit">Submit</button>
-</p>
-<label id="" class="button-size"> 
-    <p></p>
-    <textarea type="text" name="name"></textarea>
-    <button type="submit">SignIN</button>
-</label>
- 
-<h1> NutriFind Sign IN </h1>
-<ul>
-  
-    <li>
-      <p><span class="label"><h2>Welcome</h2></span> </p>
-      <a href="/">SignIn different User</a>
-    </li>
-  
-</ul>
-<h1> Sign In Here</h1>
-<form class="form">
-  <div class="form-group">
-    <label for="name">Name:</label>
-    <input type="text" id="nameform" name="fullname">
-  </div>
-<button type="submit">SignIN</button>
-</form>
-update sign in to new user 
-<form data-id="" class="signin-form">
-<div class="form-group">
-    <label for="name">name:</label>
-    <input type="text" id="name1" name="fullname" value="">
-  </div>
-    <button type="submit">Sign IN</button>
-</form> 
+<h1>Sign-In</h1>
+
+<div class="user-container flex justify-center content-center items-center">
+  <table class="table-auto">
+    <thead>
+      <tr>
+        <th class="px-4 py-2">Name</th>
+        <th class="px-4 py-2"># of Recipes</th>
+        <th class="px-4 py-2">See users Recipes</th>
+        <th class="px-4 py-2">New Recipe</th>
+        <th class="px-4 py-2">Delete User</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="form-row">
+        <form id="user-form">
+          <td colspan="4" class="border px-4 py-2">
+            <input id="user-name" placeholder="Enter your name" type="text">
+          </td>
+          <td>
+            <button type="submit" class="user-btn bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+              Create User</button>
+          </td>
+        </form>
+      </tr>
+    </tbody>
+  </table>
+</div>
